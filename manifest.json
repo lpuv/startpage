@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "minimal-startpage",
+  "name": "minimal-startpage-leo",
   "short_name": "minimal-startpage",
-  "version": "1.1",
+  "version": "1.1.2",
   "description": "Overrides the browsers newtab page with a custom startpage.",
-  "author": "deepjyoti30",
+  "author": "Leo",
   "icons": {
     "64": "img/icon64.png"
   },
@@ -16,7 +16,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "minimal-startpage@deepjyoti30.dev"
+      "id": "minimal-startpage@craftcat.dev"
     }
   }
 }
