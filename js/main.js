@@ -22,14 +22,15 @@ appId = "fd2c04ed7f9802656bd2cc23bddc7ad9"
 apiUrl = "http://api.openweathermap.org/data/2.5/weather"
 bgClassContainer = [
     "media",
-    "work",
+    "school",
     "social",
     "others",
     "funky",
     "purple",
     "upvoty",
     "indigo",
-    "foxxy"
+    "foxxy",
+    "homelab"
 ]
 searchEngines = {
     "Google": "https://www.google.com/search?q=",

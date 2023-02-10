@@ -1,20 +1,24 @@
 {
   "squares": [
-    { "name": "media",
+    { "name": "School",
       "color": "red",
       "links": [
-        { "name": "Spotify", "url": "https://open.spotify.com/" },
-        { "name": "YoutubeMusic", "url": "https://music.youtube.com/", "newTab": false },
-        { "name": "Netflix", "url": "https://netflix.com" },
-        { "name": "Youtube", "url": "https://youtube.com" }
+        { "name": "Schoology", "url": "https://lms.lausd.net/" },
+        { "name": "Dropbox", "url": "https://dropbox.com", "newTab": false },
+        { "name": "CPM E-books", "url": "https://ebooks.cpm.org" },
+        { "name": "Microsoft Math Solver", "url": "https://math.microsoft.com" }
       ]
     },
-    { "name": "work",
+    { "name": "homelab",
       "color": "#26A69A",
       "links": [
         { "name": "Github", "url": "https://github.com" },
-        { "name": "Heroku", "url": "http://heroku.com/" },
-        { "name": "localhost", "url": "http://localhost:8000/" }
+        { "name": "Proxmox", "url": "https://condor.internal.craftcat.dev" },
+        { "name": "Dashy", "url": "https://dashy.leokub.top" },
+        { "name": "PiHole", "url": "https://pihole.internal.craftcat.dev" },
+        { "name": "MinIO", "url": "minio.leokub.top" },
+        { "name": "Uptime Kuma", "url": "uptime.leokub.top" },
+        { "name": "k8s-at-home search", "url": "https://nanne.dev/k8s-at-home-search/" }
       ]
     },
     { "name": "social",
@@ -22,7 +26,7 @@
         { "name": "Reddit", "url": "https://reddit.com" },
         { "name": "Unixporn Love", "url": "https://deepjyoti30.github.io/unixporn-love/" },
         { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
-        { "name": "r/mk", "url": "https://www.reddit.com/r/MechanicalKeyboards/" }
+        { "name": "Mastodon", "url": "https://fosstodon.org" }
       ]
     },
     {
@@ -30,15 +34,13 @@
       "links": [
         {"name": "Material Colors", "url": "http://materialuicolors.co/"},
         {"name": "Gmail", "url": "http://gmail.com/"},
-        {"name": "neo4j Local", "url": "http://localhost:7474/"},
-        {"name": "rarbg", "url": "http://rarbg.to"}
       ]
     }
   ],
-  "linkInNewTab": true,
+  "linkInNewTab": false,
   "title": "startpage",
-  "searchEngine":"DuckDuckGo",
-  "user": "Deepjyoti",
+  "searchEngine":"Whoogle",
+  "user": "Leo",
   "disableMessage": false,
   "disableDate": false,
   "disableSearchBar": false,
@@ -46,8 +48,8 @@
   "disableWeather": true,
   "timeZone": "America/Los_Angeles",
   "weatherConf": {
-    "location": "Pune India",
-    "unit": "cel"
+    "location": "Los Feliz",
+    "unit": "fah"
   },
   "settingsIcon": false,
   "style": {
