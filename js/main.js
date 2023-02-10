@@ -117,7 +117,7 @@ function buildMsg() {
      * 17 - 19:59 : Good Evening
      * 20 - 23:59 : It's time to wrap up for the day
      */
-    date = new Date()
+    date = new Date(new Date().toLocaleString('en', {timeZone: 'America/Los_Angeles'}))
     currentHour = date.getHours()
     currentMinute = date.getMinutes()
     currentTime = currentHour + (0.01 * currentMinute)
