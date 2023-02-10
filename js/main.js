@@ -43,7 +43,7 @@ searchEngines = {
     "Qwant": "https://www.qwant.com/?q=",
     "Baidu": "https://www.baidu.com/s?wd=",
     "Brave": "https://search.brave.com/search?q=",
-    "Whoogle": "https://search.sethforprivacy.com/search?q="
+    "Whoogle": "https://search.leokub.top/search?q="
 }
 validWeatherUnit = [
     "fah", "cel"
