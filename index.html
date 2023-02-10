@@ -40,7 +40,7 @@
             <h2 id="weather-text">Fetching Weather...</h2>
         </div>
         <div id="search-bar">
-            <input id="search-bar-input" autofocus></input>
+            <input id="search-bar-input" autofocus="autofocus"></input>
             <div class="autocomplete-items-container">
             </div>
         </div>
@@ -60,5 +60,9 @@
     <script src="js/autocomplete.js"></script>
     <script src="js/search.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+      $('#search-bar-input').focus();
+    </script>
 </body>
 </html>
