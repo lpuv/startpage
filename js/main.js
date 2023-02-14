@@ -99,9 +99,13 @@ function initSearchBar(jsonData) {
         const wasInvoked = searchQuickLinks(query, jsonData)
         if (wasInvoked) return
 
-        // If not others, then it's probably a search
-        query = query.replace(/\ /g, "+")
-        document.location = searchUrl + query
+        if (query.includes("http://") || query.includes("https://")) {
+          document.location = query
+        } else {
+          // If not others, then it's probably a search
+          query = query.replace(/\ /g, "+")
+          document.location = searchUrl + query
+        }
     })
 }
 

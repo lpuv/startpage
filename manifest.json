@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "minimal-startpage-leo",
   "short_name": "minimal-startpage",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Overrides the browsers newtab page with a custom startpage.",
   "author": "Leo",
   "icons": {
